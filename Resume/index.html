@@ -1,0 +1,339 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Harshal Dinesh Meher - Java Full Stack Developer Portfolio
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Inter', sans-serif;
+    }
+   /* Animate fade-in for sections */
+   .fade-in {
+     opacity: 0;
+     transform: translateY(20px);
+     animation: fadeInUp 0.8s forwards;
+   }
+   @keyframes fadeInUp {
+     to {
+       opacity: 1;
+       transform: translateY(0);
+     }
+   }
+  </style>
+ </head>
+ <body class="bg-gradient-to-r from-indigo-50 via-white to-indigo-50 text-gray-900">
+  <header class="bg-white shadow-md sticky top-0 z-50">
+   <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+    <a class="text-3xl font-extrabold text-indigo-700 tracking-wide flex items-center gap-3" href="#">
+     <img alt="Programmer icon, stylized vector image of a person coding on laptop with code symbols around" class="w-10 h-10" height="40" src="https://storage.googleapis.com/a1aa/image/b1628374-f822-466d-f47a-d7dc7a863de9.jpg" width="40"/>
+     Harshal Meher
+    </a>
+    <nav class="hidden md:flex space-x-10 font-semibold text-gray-700">
+     <a class="hover:text-indigo-700 transition duration-300" href="#about">
+      About
+     </a>
+     <a class="hover:text-indigo-700 transition duration-300" href="#skills">
+      Skills
+     </a>
+     <a class="hover:text-indigo-700 transition duration-300" href="#projects">
+      Projects
+     </a>
+     <a class="hover:text-indigo-700 transition duration-300" href="#education">
+      Education
+     </a>
+     <a class="hover:text-indigo-700 transition duration-300" href="#contact">
+      Contact
+     </a>
+    </nav>
+    <button aria-label="Toggle menu" class="md:hidden focus:outline-none" id="menu-btn">
+     <i class="fas fa-bars text-3xl text-indigo-700">
+     </i>
+    </button>
+   </div>
+   <nav class="hidden md:hidden bg-white shadow-md" id="mobile-menu">
+    <a class="block px-6 py-3 border-b border-gray-200 font-semibold text-gray-700 hover:bg-indigo-100 transition" href="#about">
+     About
+    </a>
+    <a class="block px-6 py-3 border-b border-gray-200 font-semibold text-gray-700 hover:bg-indigo-100 transition" href="#skills">
+     Skills
+    </a>
+    <a class="block px-6 py-3 border-b border-gray-200 font-semibold text-gray-700 hover:bg-indigo-100 transition" href="#projects">
+     Projects
+    </a>
+    <a class="block px-6 py-3 border-b border-gray-200 font-semibold text-gray-700 hover:bg-indigo-100 transition" href="#education">
+     Education
+    </a>
+    <a class="block px-6 py-3 font-semibold text-gray-700 hover:bg-indigo-100 transition" href="#contact">
+     Contact
+    </a>
+   </nav>
+  </header>
+  <main class="max-w-7xl mx-auto px-6 py-12">
+   <!-- Hero Section -->
+   <section class="flex flex-col md:flex-row items-center md:items-start gap-10 md:gap-20 fade-in" id="about" style="animation-delay: 0.1s;">
+    <div class="flex-0 p-0 m-0 w-52 h-52 md:w-60 md:h-60 rounded-full overflow-hidden border-4 border-indigo-600 shadow-xl transform hover:scale-105 transition duration-500">
+   </nav>
+   <img alt="Portrait photo of Harshal Dinesh Meher, a professional software engineer, smiling and wearing smart casual clothes, indoor office background" class="w-full h-full object-cover " height="290" src="WhatsApp Image 2025-05-03 at 12.59.13_c02a1e21.jpg" width="256"/>
+    </div>
+    <div class="max-w-xl">
+     <h1 class="text-5xl font-extrabold text-indigo-700 mb-4 tracking-tight leading-tight">
+      Harshal Dinesh Meher
+     </h1>
+     <p class="text-2xl font-semibold text-gray-800 mb-6">
+     | Java Full Stack |
+     </p>
+     <p class="text-gray-700 leading-relaxed whitespace-pre-line text-lg">
+      Accomplished Software Engineer with a strong focus on results and extensive expertise in full-stack development. Specializes in creating scalable microservices utilizing Spring Boot and developing dynamic user interfaces with Angular. Demonstrates a proven track record in agile environments, consistently delivering high-quality products through innovative solutions.
+     </p>
+     <div class="mt-8 flex flex-wrap gap-6 text-gray-600 text-lg">
+      <div class="flex items-center space-x-3">
+       <i class="fas fa-map-marker-alt text-indigo-600 text-xl">
+       </i>
+       <span>
+        Ramna Maroti Nagar • Nagpur, 440024
+       </span>
+      </div>
+      <div class="flex items-center space-x-3">
+       <i class="fas fa-phone-alt text-indigo-600 text-xl">
+       </i>
+       <span>
+        9834996139
+       </span>
+      </div>
+      <div class="flex items-center space-x-3">
+       <i class="fas fa-envelope text-indigo-600 text-xl">
+       </i>
+       <a class="hover:underline" href="mailto:meherharshal924@gmail.com">
+        meherharshal924@gmail.com
+       </a>
+      </div>
+     </div>
+     <div class="mt-8 flex space-x-8 text-indigo-700 text-3xl">
+      <a aria-label="LinkedIn profile" class="hover:text-indigo-900 transition duration-300" href="https://www.linkedin.com/feed/" rel="noopener" target="_blank">
+       <i class="fab fa-linkedin">
+       </i>
+      </a>
+      <a aria-label="GitHub profile" class="hover:text-indigo-900 transition duration-300" href="https://github.com/Harshal-Meher?tab=repositories" rel="noopener" target="_blank">
+       <i class="fab fa-github">
+       </i>
+      </a>
+     </div>
+    </div>
+   </section>
+   <!-- Skills Section -->
+   <section class="mt-24 fade-in" id="skills" style="animation-delay: 0.3s;">
+    <h2 class="text-4xl font-extrabold text-indigo-700 mb-12 text-center tracking-wide">
+     Technical Skills
+    </h2>
+    <div class="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 text-gray-800">
+     <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-indigo-300 transition duration-300">
+      <h3 class="text-2xl font-semibold mb-5 border-b-4 border-indigo-600 pb-3">
+       Backend
+      </h3>
+      <ul class="list-disc list-inside space-y-2 text-lg">
+       <li>
+        Java
+       </li>
+       <li>
+        Spring Boot
+       </li>
+       <li>
+        RESTful Web Services
+       </li>
+       <li>
+        Microservices
+       </li>
+       <li>
+        Hibernate/JPA
+       </li>
+      </ul>
+     </div>
+     <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-indigo-300 transition duration-300">
+      <h3 class="text-2xl font-semibold mb-5 border-b-4 border-indigo-600 pb-3">
+       Frontend
+      </h3>
+      <ul class="list-disc list-inside space-y-2 text-lg">
+       <li>
+        Angular
+       </li>
+       <li>
+        HTML5
+       </li>
+       <li>
+        CSS
+       </li>
+       <li>
+        JavaScript/TypeScript
+       </li>
+       <li>
+        Angular CLI
+       </li>
+       <li>
+        RxJS
+       </li>
+       <li>
+        Angular Material
+       </li>
+       <li>
+        Bootstrap
+       </li>
+      </ul>
+     </div>
+     <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-indigo-300 transition duration-300">
+      <h3 class="text-2xl font-semibold mb-5 border-b-4 border-indigo-600 pb-3">
+       DevOps &amp; Tools
+      </h3>
+      <ul class="list-disc list-inside space-y-2 text-lg">
+       <li>
+        Git
+       </li>
+      </ul>
+      <h3 class="text-2xl font-semibold mt-10 mb-5 border-b-4 border-indigo-600 pb-3">
+       Databases
+      </h3>
+      <ul class="list-disc list-inside space-y-2 text-lg">
+       <li>
+        MySQL
+       </li>
+       <li>
+        PostgreSQL
+       </li>
+      </ul>
+     </div>
+    </div>
+   </section>
+   <!-- Projects Section -->
+   <section class="mt-24 fade-in" id="projects" style="animation-delay: 0.5s;">
+    <h2 class="text-4xl font-extrabold text-indigo-700 mb-12 text-center tracking-wide">
+     Projects
+    </h2>
+    <div class="max-w-4xl mx-auto space-y-12">
+     <article class="bg-white rounded-xl shadow-lg p-8 hover:shadow-indigo-400 transition duration-300">
+      <h3 class="text-3xl font-semibold mb-4 text-indigo-800">
+       Consultancy Services for Software Solutions (Open Source Professional)
+      </h3>
+      <p class="text-gray-700 text-lg mb-6 leading-relaxed">
+       This project aims to enhance user engagement by implementing an Angular frontend. For further information, please refer to the GitHub repository at:
+      </p>
+      <a class="inline-flex items-center text-indigo-700 font-semibold hover:underline break-all text-lg" href="https://github.com/Harshal-Meher/OS-APP-" rel="noopener" target="_blank">
+       <i class="fab fa-github mr-3 text-2xl">
+       </i>
+       https://github.com/Harshal-Meher/OS-APP-
+      </a>
+     </article>
+    </div>
+   </section>
+   <!-- Education Section -->
+   <section class="mt-24 fade-in" id="education" style="animation-delay: 0.7s;">
+    <h2 class="text-4xl font-extrabold text-indigo-700 mb-12 text-center tracking-wide">
+     Education
+    </h2>
+    <div class="max-w-4xl mx-auto space-y-10 text-gray-800 text-lg">
+     <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-indigo-400 transition duration-300">
+      <h3 class="text-2xl font-semibold mb-3">
+       Master of Computer Applications (MCA)
+      </h3>
+      <p class="text-indigo-700 font-semibold">
+       G.H. Raisoni University, Amravati
+      </p>
+     </div>
+     <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-indigo-400 transition duration-300">
+      <h3 class="text-2xl font-semibold mb-3">
+       Bachelor of Commerce in Computer Applications (BCCA)
+      </h3>
+      <p class="text-indigo-700 font-semibold">
+       Kamla Nehru College, affiliated with Nagpur University
+      </p>
+     </div>
+    </div>
+   </section>
+   <!-- Contact Section -->
+   <section class="mt-24 fade-in max-w-3xl mx-auto bg-white rounded-xl shadow-lg p-10" id="contact" style="animation-delay: 0.9s;">
+    <h2 class="text-4xl font-extrabold text-indigo-700 mb-10 text-center tracking-wide">
+     Contact Me
+    </h2>
+    <form action="mailto:meherharshal924@gmail.com" class="space-y-8" enctype="text/plain" method="POST">
+     <div>
+      <label class="block text-gray-800 font-semibold mb-3 text-lg" for="name">
+       Name
+      </label>
+      <input class="w-full border border-gray-300 rounded-lg px-5 py-3 focus:outline-none focus:ring-4 focus:ring-indigo-400 transition" id="name" name="name" placeholder="Your full name" required="" type="text"/>
+     </div>
+     <div>
+      <label class="block text-gray-800 font-semibold mb-3 text-lg" for="email">
+       Email
+      </label>
+      <input class="w-full border border-gray-300 rounded-lg px-5 py-3 focus:outline-none focus:ring-4 focus:ring-indigo-400 transition" id="email" name="email" placeholder="your.email@example.com" required="" type="email"/>
+     </div>
+     <div>
+      <label class="block text-gray-800 font-semibold mb-3 text-lg" for="message">
+       Message
+      </label>
+      <textarea class="w-full border border-gray-300 rounded-lg px-5 py-3 focus:outline-none focus:ring-4 focus:ring-indigo-400 transition" id="message" name="message" placeholder="Write your message here..." required="" rows="6"></textarea>
+     </div>
+     <button class="w-full bg-indigo-700 text-white font-bold py-4 rounded-lg hover:bg-indigo-900 transition duration-300 text-xl" type="submit">
+      Send Message
+     </button>
+    </form>
+    <div class="mt-10 text-center text-gray-600 space-x-10 text-lg">
+     <a class="inline-block hover:text-indigo-700 transition" href="mailto:meherharshal924@gmail.com">
+      <i class="fas fa-envelope fa-lg mr-2">
+      </i>
+      meherharshal924@gmail.com
+     </a>
+     <a class="inline-block hover:text-indigo-700 transition" href="https://www.linkedin.com/feed/" rel="noopener" target="_blank">
+      <i class="fab fa-linkedin fa-lg mr-2">
+      </i>
+      LinkedIn
+     </a>
+     <a class="inline-block hover:text-indigo-700 transition" href="https://github.com/Harshal-Meher?tab=repositories" rel="noopener" target="_blank">
+      <i class="fab fa-github fa-lg mr-2">
+      </i>
+      GitHub
+     </a>
+    </div>
+   </section>
+  </main>
+  <footer class="bg-white border-t border-gray-300 mt-24 py-8">
+   <div class="max-w-7xl mx-auto px-6 text-center text-gray-500 text-sm select-none">
+    © 2024 Harshal Dinesh Meher. All rights reserved.
+   </div>
+  </footer>
+  <script>
+   const menuBtn = document.getElementById('menu-btn');
+   const mobileMenu = document.getElementById('mobile-menu');
+
+   menuBtn.addEventListener('click', () => {
+     mobileMenu.classList.toggle('hidden');
+   });
+
+   // Animate fade-in on scroll
+   const fadeEls = document.querySelectorAll('.fade-in');
+   const observer = new IntersectionObserver(
+     (entries) => {
+       entries.forEach((entry) => {
+         if (entry.isIntersecting) {
+           entry.target.style.opacity = '1';
+           entry.target.style.transform = 'translateY(0)';
+           entry.target.style.animationPlayState = 'running';
+           observer.unobserve(entry.target);
+         }
+       });
+     },
+     { threshold: 0.1 }
+   );
+   fadeEls.forEach((el) => {
+     el.style.opacity = '0';
+     el.style.transform = 'translateY(20px)';
+     el.style.animationPlayState = 'paused';
+     observer.observe(el);
+   });
+  </script>
+ </body>
+</html>
